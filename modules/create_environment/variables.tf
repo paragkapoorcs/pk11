@@ -140,7 +140,7 @@ variable "image_version" {
 variable "pypi_packages" {
   type        = map(string)
   description = " Custom Python Package Index (PyPI) packages to be installed in the environment. Keys refer to the lowercase package name (e.g. \"numpy\")."
-  default     = {"apache-airflow-providers-google" = ">=5.1.0"}
+  default     = {}
 }
 
 variable "python_version" {
