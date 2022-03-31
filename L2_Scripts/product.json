@@ -1,0 +1,200 @@
+[
+ {
+   "name": "uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Universal Unique ID"
+ },
+ {
+   "name": "product_uid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Unique identifier for the record - Combination of Product_ID and Organization Level"
+ },
+ {
+   "name": "product_id",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Product ID is unique Identifier for the Product"
+ },
+ {
+   "name": "organization_level",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Organization Level is representing any organization unit, this can be a plant, sales organization or a company code. "
+ },
+ {
+   "name": "product_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Product type - whether it is raw material or finished goods"
+ },
+ {
+   "name": "product_description",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Product Description"
+ },
+ {
+   "name": "product_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Product Group"
+ },
+ {
+   "name": "product_hierarchy",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Product Hierarchy"
+ },
+ {
+   "name": "batch_managed",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Is this a Batch-Managed Product "
+ },
+ {
+   "name": "procurement_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Product is in-house produced or externally procured"
+ },
+ {
+   "name": "base_uom",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Base Unit of Measure"
+ },
+ {
+   "name": "product_category",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Further classification of the product based on handling of the product - Hazardous Goods, Dangerous Goods, Oxidizing, Corrosive, Gas, Flammable"
+ },
+ {
+   "name": "temperature_condition",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Temperature Condition "
+ },
+ {
+   "name": "product_cost",
+   "type": "FLOAT",
+   "mode": "NULLABLE",
+   "description": "Average Cost of the Product"
+ },
+ {
+   "name": "product_cost_currency",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Product Cost Currency"
+ },
+ {
+   "name": "shelf_life",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Shelf_Life of the Product"
+ },
+ {
+   "name": "product_classification",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "ABC Classification for KPI analysis"
+ },
+ {
+   "name": "safty_stock",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Safety Stock"
+ },
+ {
+   "name": "volume",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Volume - Used for transportation planning"
+ },
+ {
+   "name": "gross_weight",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Gross Weight - Used for transportation planning"
+ },
+ {
+   "name": "valid_from_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Valid from date"
+ },
+ {
+   "name": "valid_to_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Valid to date"
+ },
+ {
+   "name": "active",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Product Active"
+ },
+ {
+   "name": "creation_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Creation Date"
+ },
+ {
+   "name": "change_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Change Date"
+ },
+ {
+   "name": "lead_time",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Total Replenishment Lead time"
+ },
+ {
+   "name": "product_hierarchy_name",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Product Hierarchy Name"
+ },
+ {
+   "name": "product_hierarchy_level",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Product Hierarchy Level"
+ },
+ {
+   "name": "product_hierarchy_level_name",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Product Hierarchy Level Length"
+ },
+ {
+   "name": "product_hierarchy_level_1",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Product Hierarchy Level 1"
+ },
+ {
+   "name": "product_hierarchy_level_1_name",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Product Hierarchy Level 1 Name"
+ },
+ {
+   "name": "product_hierarchy_level_2",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Product Hierarchy Level 2"
+ },
+ {
+   "name": "product_hierarchy_level_2_name",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Product Hierarchy Level 2 Name"
+ }
+]

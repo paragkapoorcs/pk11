@@ -1,0 +1,74 @@
+[
+ {
+   "name": "inventory_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Inventory Availability Date"
+ },
+ {
+   "name": "product_uid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Product UID"
+ },
+ {
+   "name": "location_uid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Location UID"
+ },
+ {
+   "name": "batch_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Batch Number"
+ },
+ {
+   "name": "inventory_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Inventory Type - Unrestricted, in transit, Blocked, Expired, Customer Consignment, Vendor Consignment, Order specific etc"
+ },
+ {
+   "name": "inventory_assignment",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Location ID "
+ },
+ {
+   "name": "inventory_quantity",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Quantity in Base UoM"
+ },
+ {
+   "name": "remaining_shelf_life",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Remaining Shelf life"
+ },
+ {
+   "name": "inventory_block",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Inventory Block"
+ },
+ {
+   "name": "inv_gr_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Goods Receipt date for Inventory Ageing Calculation"
+ },
+ {
+   "name": "inventory_ownership",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Legal Entity for ownership (Company Code, Supplier)"
+ },
+ {
+   "name": "valuation_area",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Valuation Entity for financial reporting"
+ }
+]

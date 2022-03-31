@@ -1,0 +1,770 @@
+[
+ {
+   "name": "supplier_purchase_org_uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Unique Generated Id"
+ },
+ {
+   "name": "supplier_purchase_org_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Supplier Purchase Org Key"
+ },
+ {
+   "name": "vendors_account_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Account Number of Vendor or Creditor"
+ },
+ {
+   "name": "purchasing_organization",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Purchasing organization"
+ },
+ {
+   "name": "vendor_account_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Vendor account group"
+ },
+ {
+   "name": "title",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Title"
+ },
+ {
+   "name": "train_station",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Train station"
+ },
+ {
+   "name": "international_location_number_1",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "International location number  (part 1)"
+ },
+ {
+   "name": "international_location_number_2",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "International location number (Part 2)"
+ },
+ {
+   "name": "authorization_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Authorization Group"
+ },
+ {
+   "name": "industry_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Industry key"
+ },
+ {
+   "name": "check_digit",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Check digit for the international location number"
+ },
+ {
+   "name": "data_line",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Data communication line no."
+ },
+ {
+   "name": "date_medium_exchange_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Report key for data medium exchange"
+ },
+ {
+   "name": "instruction_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Instruction key for data medium exchange"
+ },
+ {
+   "name": "created_on",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Date on which the Record Was Created"
+ },
+ {
+   "name": "created_by",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Name of Person who Created the Object"
+ },
+ {
+   "name": "isr_subscriber_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "ISR subscriber number"
+ },
+ {
+   "name": "group_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Group key"
+ },
+ {
+   "name": "customer_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Customer Number"
+ },
+ {
+   "name": "country_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Country Key"
+ },
+ {
+   "name": "alternative_payee",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Account Number of the Alternative Payee"
+ },
+ {
+   "name": "central_deletion_flag",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Central Deletion Flag for Master Record"
+ },
+ {
+   "name": "name_1",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Name 1"
+ },
+ {
+   "name": "name_2",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Name 2"
+ },
+ {
+   "name": "name_3",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Name 3"
+ },
+ {
+   "name": "name_4",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Name 4"
+ },
+ {
+   "name": "city",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "City"
+ },
+ {
+   "name": "district",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "District"
+ },
+ {
+   "name": "post_office_box",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "PO Box"
+ },
+ {
+   "name": "po_box_postal_code",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "P.O. Box Postal Code"
+ },
+ {
+   "name": "postal_code",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Postal Code"
+ },
+ {
+   "name": "region",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Region (State, Province, County)"
+ },
+ {
+   "name": "sort_field",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sort field"
+ },
+ {
+   "name": "central_posting_block",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Central posting block"
+ },
+ {
+   "name": "central_purchasing_block",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Centrally imposed purchasing block"
+ },
+ {
+   "name": "language_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Language Key"
+ },
+ {
+   "name": "tax_number_1",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Tax Number 1"
+ },
+ {
+   "name": "tax_number_2",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Tax Number 2"
+ },
+ {
+   "name": "tax_number_3",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Tax Number 3"
+ },
+ {
+   "name": "sales_equalization_tax",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: Business Partner Subject to Equalization Tax?"
+ },
+ {
+   "name": "liable_for_vat",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Liable for VAT"
+ },
+ {
+   "name": "street_and_house_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Street and House Number"
+ },
+ {
+   "name": "telebox_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Telebox number"
+ },
+ {
+   "name": "telephone_1",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "First telephone number"
+ },
+ {
+   "name": "telephone_2",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Second telephone number"
+ },
+ {
+   "name": "fax_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Fax Number"
+ },
+ {
+   "name": "teletex_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Teletex number"
+ },
+ {
+   "name": "telex_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Telex number"
+ },
+ {
+   "name": "one_time_account",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: Is the account a one-time account?"
+ },
+ {
+   "name": "payee_in_document",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: Alternative Payee in Document Allowed?"
+ },
+ {
+   "name": "trading_partner",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Company ID of Trading Partner"
+ },
+ {
+   "name": "fiscal_address",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Account number of the master record with fiscal address"
+ },
+ {
+   "name": "vat_registration_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "VAT Registration Number"
+ },
+ {
+   "name": "natural_person",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Natural Person"
+ },
+ {
+   "name": "block_function",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Function That Will Be Blocked"
+ },
+ {
+   "name": "matchcode_name_1",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Search term for matchcode search"
+ },
+ {
+   "name": "matchcode_name_2",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Search term for matchcode search"
+ },
+ {
+   "name": "matchcode_city",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Search term for matchcode search"
+ },
+ {
+   "name": "place_of_birth",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Place of birth of the person subject to withholding tax"
+ },
+ {
+   "name": "date_of_birth",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Date of Birth of the Person Subject to Withholding Tax"
+ },
+ {
+   "name": "sex",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Key for the Sex of the Person Subject to Withholding Tax"
+ },
+ {
+   "name": "credit_information_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Credit Information Number"
+ },
+ {
+   "name": "last_external_review",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Last External Review"
+ },
+ {
+   "name": "actual_qm_system",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Supplier's QM system"
+ },
+ {
+   "name": "reference_account_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Reference Account Group for One-Time Account (Vendor)"
+ },
+ {
+   "name": "post_office_box_city",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "PO Box city"
+ },
+ {
+   "name": "plant",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Plant"
+ },
+ {
+   "name": "vendor_sub_range_relevant",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: vendor sub-range relevant"
+ },
+ {
+   "name": "plant_level_relevant",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: plant level relevant"
+ },
+ {
+   "name": "factory_calendar",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Factory calendar key"
+ },
+ {
+   "name": "tax_jurisdiction",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Tax Jurisdiction"
+ },
+ {
+   "name": "payment_block",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Payment Block"
+ },
+ {
+   "name": "address",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Address"
+ },
+ {
+   "name": "tax_number_4",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Tax Number 4"
+ },
+ {
+   "name": "tax_number_5",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Tax Number 5"
+ },
+ {
+   "name": "purchasing_organization_block",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Purchasing block at purchasing organization level"
+ },
+ {
+   "name": "purchasing_organization_delete_flag",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Deletion Indicator for Supplier at Purchasing Level"
+ },
+ {
+   "name": "abc_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "ABC indicator"
+ },
+ {
+   "name": "order_currency",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Purchase order currency"
+ },
+ {
+   "name": "responsible_salesperson",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Responsible Salesperson at Supplier's Office"
+ },
+ {
+   "name": "telephone_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Supplier's Telephone Number"
+ },
+ {
+   "name": "minimum_order_value",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Minimum order value"
+ },
+ {
+   "name": "payment_terms",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Terms of payment key"
+ },
+ {
+   "name": "incoterms_1",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Incoterms (Part 1)"
+ },
+ {
+   "name": "incoterms_2",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Incoterms (Part 2)"
+ },
+ {
+   "name": "gr_based_invoice",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: GR-Based Invoice Verification"
+ },
+ {
+   "name": "acknowledgment_required",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Order Acknowledgment Requirement"
+ },
+ {
+   "name": "schems_group_supplier",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Group for Calculation Schema (Supplier)"
+ },
+ {
+   "name": "automatic_purchase_order",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Automatic Generation of Purchase Order Allowed"
+ },
+ {
+   "name": "mode_of_transport",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Mode of Transport at the Border (Intrastat)"
+ },
+ {
+   "name": "customs_office",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Customs Office: Office of Exit/Entry for Foreign Trade"
+ },
+ {
+   "name": "price_date_control",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Price Determination (Pricing) Date Control"
+ },
+ {
+   "name": "purchasing_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Purchasing Group"
+ },
+ {
+   "name": "subsequient_settlement",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: vendor subject to subseq. settlement accounting"
+ },
+ {
+   "name": "business_volumn_comparison",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Comparison/agreement of business volumes necessary"
+ },
+ {
+   "name": "evaluated_receipt_settlement",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Evaluated Receipt Settlement (ERS)"
+ },
+ {
+   "name": "planned_delivery_time",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Planned Delivery Time in Days"
+ },
+ {
+   "name": "planning_calendar",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Planning Calendar"
+ },
+ {
+   "name": "planning_cycle",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Planning cycle"
+ },
+ {
+   "name": "order_entry_supplier",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Order entry by supplier"
+ },
+ {
+   "name": "supplier_price_marking",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Price marking, supplier"
+ },
+ {
+   "name": "rack_jobbing",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Rack-jobbing: supplier"
+ },
+ {
+   "name": "price_determination",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: \"relev. to price determination (vend. hierarchy)"
+ },
+ {
+   "name": "qualifying_discount_kind_granted",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator whether discount in kind granted"
+ },
+ {
+   "name": "subsequient_settlement_index",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: index compilation for subseq. settlement active"
+ },
+ {
+   "name": "document_index_active",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: Doc. index compilation active for purchase orders"
+ },
+ {
+   "name": "returns_supplier",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicates whether supplier is returns supplier"
+ },
+ {
+   "name": "sort_criterion",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Supplier sort criterion for materials"
+ },
+ {
+   "name": "confimration_control",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Confirmation Control Key"
+ },
+ {
+   "name": "rounding_profile",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Rounding Profile"
+ },
+ {
+   "name": "unit_of_measure_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Unit of Measure Group"
+ },
+ {
+   "name": "supplier_service_level",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Supplier Service Level"
+ },
+ {
+   "name": "load_building_restriction_profile",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Restriction Profile for PO-Based Load Building"
+ },
+ {
+   "name": "automatic_evaluated_receipt",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Automatic evaluated receipt settlement for return items"
+ },
+ {
+   "name": "account_supplier",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Our account number with the supplier"
+ },
+ {
+   "name": "release_creation_profile",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Release Creation Profile"
+ },
+ {
+   "name": "proact_control_profile",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Profile for transferring material data via IDoc PROACT"
+ },
+ {
+   "name": "settlement_management",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: Relevant for Settlement Management"
+ },
+ {
+   "name": "revaluation_allowed",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Revaluation allowed"
+ },
+ {
+   "name": "shipping_conditions",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Shipping Conditions"
+ },
+ {
+   "name": "service_based_invoice_verification",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator for Service-Based Invoice Verification"
+ },
+ {
+   "name": "input_last_update_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Last Input read time"
+ },
+ {
+   "name": "finalmd5key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "MD5 key column for compare"
+ },
+ {
+   "name": "dw_active_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Active indicator to valid record"
+ },
+ {
+   "name": "dw_start_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Start Date for the record"
+ },
+ {
+   "name": "dw_end_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "End Date for the record"
+ },
+ {
+   "name": "dw_last_update_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Last update date "
+ }
+]

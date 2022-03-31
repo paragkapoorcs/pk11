@@ -1,0 +1,50 @@
+[
+ {
+   "name": "forecast_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Forecast Generation Date"
+ },
+ {
+   "name": "product_uid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Product ID"
+ },
+ {
+   "name": "location_uid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Location ID"
+ },
+ {
+   "name": "forecast_period_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Period Type - Month, Week or Day"
+ },
+ {
+   "name": "forecast_period",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Forecast Period"
+ },
+ {
+   "name": "forecast_quantity",
+   "type": "INT64",
+   "mode": "NULLABLE",
+   "description": "Forecasted Quantity"
+ },
+ {
+   "name": "inventory_quantity",
+   "type": "INT64",
+   "mode": "NULLABLE",
+   "description": "Quantity in Base UoM"
+ },
+ {
+   "name": "forecast_uom",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Forecasting Unit of Measure"
+ }
+]

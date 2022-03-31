@@ -1,0 +1,1142 @@
+[
+ {
+   "name": "inventory_uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Unique Generated Id"
+ },
+ {
+   "name": "inventory_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Inventory Key"
+ },
+ {
+   "name": "material_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Material Number"
+ },
+ {
+   "name": "plant",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Plant"
+ },
+ {
+   "name": "vendors_account_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Vendor's account number"
+ },
+ {
+   "name": "posting_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Posting Date in the Document"
+ },
+ {
+   "name": "material_uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Material Dimension unique generated id"
+ },
+ {
+   "name": "plant_uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Plant Dimension unique generated id"
+ },
+ {
+   "name": "supplier_uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Supplier Dimension unique generated id"
+ },
+ {
+   "name": "customer_uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Customer Dimension unique generated id"
+ },
+ {
+   "name": "material_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Material key from Material Dimension"
+ },
+ {
+   "name": "plant_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Plant Key from Plant Dimension"
+ },
+ {
+   "name": "customer_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Customer Key from Customer Dimension"
+ },
+ {
+   "name": "supplier_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Supplier key from Supplier Dimension"
+ },
+ {
+   "name": "maintenance_status",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Maintenance status"
+ },
+ {
+   "name": "plant_level_deletion_flag",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Flag Material for Deletion at Plant Level"
+ },
+ {
+   "name": "valuation_category",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Valuation Category"
+ },
+ {
+   "name": "batch_management_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Batch management indicator (internal)"
+ },
+ {
+   "name": "plant_specific_material_status",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Plant-Specific Material Status"
+ },
+ {
+   "name": "valid_from",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Date from Which the Plant-Specific Material Status Is Valid"
+ },
+ {
+   "name": "abc_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "ABC Indicator"
+ },
+ {
+   "name": "critical_part",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: Critical part"
+ },
+ {
+   "name": "purchasing_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Purchasing Group"
+ },
+ {
+   "name": "unit_of_issue",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Unit of issue"
+ },
+ {
+   "name": "mrp_profile",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Material: MRP profile"
+ },
+ {
+   "name": "mrp_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "MRP Type"
+ },
+ {
+   "name": "mrp_controller",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "MRP Controller"
+ },
+ {
+   "name": "mrp_controller_buyer",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: MRP controller is buyer (deactivated)"
+ },
+ {
+   "name": "planned_deliv_time",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Planned Delivery Time in Days"
+ },
+ {
+   "name": "goods_receipt_processing_time",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Goods receipt processing time in days"
+ },
+ {
+   "name": "period_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Period Indicator"
+ },
+ {
+   "name": "assembly_scrap",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Assembly scrap in percent"
+ },
+ {
+   "name": "lot_sizing_procedure",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Lot Sizing Procedure within Materials Planning"
+ },
+ {
+   "name": "procurement_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Procurement Type"
+ },
+ {
+   "name": "special_procurement_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Special procurement type"
+ },
+ {
+   "name": "dependent_requirements_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Dependent requirements ind. for individual and coll. reqmts"
+ },
+ {
+   "name": "storage_costs_code",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Storage Costs Percentage Code"
+ },
+ {
+   "name": "selection_method",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Method for Selecting Alternative Bills of Material"
+ },
+ {
+   "name": "discontinuation_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Discontinuation indicator"
+ },
+ {
+   "name": "effective_out_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Effective-Out Date"
+ },
+ {
+   "name": "follow_up_material",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Follow-Up Material"
+ },
+ {
+   "name": "requirements_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator for Requirements Grouping"
+ },
+ {
+   "name": "mixed_mrp_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Mixed MRP indicator"
+ },
+ {
+   "name": "scheduling_margin_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Scheduling Margin Key for Floats"
+ },
+ {
+   "name": "automatic_fixing_planned_orders",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: automatic fixing of planned orders"
+ },
+ {
+   "name": "automatic_release",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Release indicator for production orders"
+ },
+ {
+   "name": "backflush",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: Backflush"
+ },
+ {
+   "name": "production_supervisor",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Production Supervisor"
+ },
+ {
+   "name": "processing_time",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Processing time"
+ },
+ {
+   "name": "setup_time",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Setup and teardown time"
+ },
+ {
+   "name": "interoperation_time",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Interoperation time"
+ },
+ {
+   "name": "in_house_production",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "In-house production time"
+ },
+ {
+   "name": "maximum_storage_period",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Maximum Storage Period"
+ },
+ {
+   "name": "time_unit",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Unit for maximum storage period"
+ },
+ {
+   "name": "withdrawal_production_bin",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: withdrawal of stock from production bin"
+ },
+ {
+   "name": "rough_cut_planning",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: Material Included in Rough-Cut Planning"
+ },
+ {
+   "name": "overdelivery_tolerance_limit",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Overdelivery tolerance limit"
+ },
+ {
+   "name": "unlimited_overdelivery_allowed",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: Unlimited Overdelivery Allowed"
+ },
+ {
+   "name": "underdely_tolerance",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Underdelivery tolerance limit"
+ },
+ {
+   "name": "total_replenishment_lead_time",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Total replenishment lead time (in workdays)"
+ },
+ {
+   "name": "replacement_part",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Replacement part"
+ },
+ {
+   "name": "surcharge_factor_percent",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Surcharge factor for cost in percent"
+ },
+ {
+   "name": "state_of_manufacture",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "State of manufacture"
+ },
+ {
+   "name": "stock_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Stock Type"
+ },
+ {
+   "name": "sample_percentage",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Sample for quality inspection (in %) (deactivated)"
+ },
+ {
+   "name": "quarantine_period",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Quarantine period (deactivated)"
+ },
+ {
+   "name": "qm_control_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Control Key for Quality Management in Procurement"
+ },
+ {
+   "name": "mean_inspection_duration",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Mean inspection duration (deactivated)"
+ },
+ {
+   "name": "inspection_plan_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator for inspection plan (deactivated)"
+ },
+ {
+   "name": "documentation_required",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Documentation required indicator"
+ },
+ {
+   "name": "active_substance",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Active substance content (deactivated)"
+ },
+ {
+   "name": "inspection_interval",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Interval Until Next Recurring Inspection"
+ },
+ {
+   "name": "next_inspection",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Date according to check sampling inspection (deactivated)"
+ },
+ {
+   "name": "loading_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Loading Group"
+ },
+ {
+   "name": "batch_management_requirement",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Batch management requirement indicator"
+ },
+ {
+   "name": "quota_arrangement_usage",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Quota arrangement usage"
+ },
+ {
+   "name": "service_level",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Service level"
+ },
+ {
+   "name": "splitting_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Splitting Indicator"
+ },
+ {
+   "name": "plan_version",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Plan Version"
+ },
+ {
+   "name": "object_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Object Type"
+ },
+ {
+   "name": "object_id",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Object ID"
+ },
+ {
+   "name": "availability_check",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Checking Group for Availability Check"
+ },
+ {
+   "name": "fiscal_year_variant",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Fiscal Year Variant"
+ },
+ {
+   "name": "correction_factors",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: take correction factors into account"
+ },
+ {
+   "name": "shipping_setup_time",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Shipping setup time"
+ },
+ {
+   "name": "shipping_processing_time",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Shipping processing time"
+ },
+ {
+   "name": "delivery_cycle",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Delivery cycle"
+ },
+ {
+   "name": "source_of_supply",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Source of Supply"
+ },
+ {
+   "name": "automatic_purchase_order",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: \"automatic purchase order allowed\""
+ },
+ {
+   "name": "source_list",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: Source list requirement"
+ },
+ {
+   "name": "commodity_code",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Commodity Code"
+ },
+ {
+   "name": "country_of_origin",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Country of Origin of Material (Non-Preferential Origin)"
+ },
+ {
+   "name": "region_of_origin",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Region of Origin of Material (Non-Preferential Origin)"
+ },
+ {
+   "name": "commodity_code_unit",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Unit of measure for commodity code (foreign trade)"
+ },
+ {
+   "name": "intrastat_material_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Material Group for Intrastat"
+ },
+ {
+   "name": "profit_center",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Profit Center"
+ },
+ {
+   "name": "planning_calendar",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "PPC Planning Calendar"
+ },
+ {
+   "name": "repetitive_manufacturing",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: Repetitive Manufacturing Allowed"
+ },
+ {
+   "name": "planning_time_fence",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Planning time fence"
+ },
+ {
+   "name": "consumption_mode",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Consumption mode"
+ },
+ {
+   "name": "backward_consumption_period",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Consumption period: backward"
+ },
+ {
+   "name": "forward_consumption_period",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Consumption period: forward"
+ },
+ {
+   "name": "version_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Version Indicator"
+ },
+ {
+   "name": "alternative_bom",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Alternative BOM"
+ },
+ {
+   "name": "bom_usage",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "BOM Usage"
+ },
+ {
+   "name": "task_list_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Key for Task List Group"
+ },
+ {
+   "name": "group_counter",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Group Counter"
+ },
+ {
+   "name": "special_procurement_costing",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Special Procurement Type for Costing"
+ },
+ {
+   "name": "production_unit",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Production unit"
+ },
+ {
+   "name": "production_storage_location",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Issue Storage Location"
+ },
+ {
+   "name": "mrp_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "MRP Group"
+ },
+ {
+   "name": "component_scrap",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Component Scrap in Percent"
+ },
+ {
+   "name": "certificate_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Certificate Type"
+ },
+ {
+   "name": "inspection_setup",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Inspection Setup Exists for Material/Plant"
+ },
+ {
+   "name": "takt_time",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Takt time"
+ },
+ {
+   "name": "coverage_profile",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Range of coverage profile"
+ },
+ {
+   "name": "local_field_name",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Local field name for CO/PA link to SOP"
+ },
+ {
+   "name": "physical_inventory_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Physical Inventory Indicator for Cycle Counting"
+ },
+ {
+   "name": "variance_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Variance Key"
+ },
+ {
+   "name": "serial_number_profile",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Serial Number Profile"
+ },
+ {
+   "name": "internal_object_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Internal object number"
+ },
+ {
+   "name": "configurable_material",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Configurable material"
+ },
+ {
+   "name": "repetitive_manufacturing_profile",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Repetitive Manufacturing Profile"
+ },
+ {
+   "name": "negative_stocks",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Negative stocks allowed in plant"
+ },
+ {
+   "name": "target_qm_system",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Required QM System for Supplier"
+ },
+ {
+   "name": "planning_cycle",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Planning cycle"
+ },
+ {
+   "name": "rounding_profile",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Rounding Profile"
+ },
+ {
+   "name": "reference_material_for_consumption",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Reference material for consumption"
+ },
+ {
+   "name": "reference_plant_for_consumption",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Reference plant for consumption"
+ },
+ {
+   "name": "date_of_material",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "To date of the material to be copied for consumption"
+ },
+ {
+   "name": "multiplier_for_reference_material",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Multiplier for reference material for consumption"
+ },
+ {
+   "name": "reset_automatically",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Reset Forecast Model Automatically"
+ },
+ {
+   "name": "customs_preference",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Customs Preference"
+ },
+ {
+   "name": "exemption_certificate",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Exemption certificate: Indicator for legal control"
+ },
+ {
+   "name": "exemption_certificate_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Exemption certificate number for legal control"
+ },
+ {
+   "name": "issue_date_certificate",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Exemption certificate: Issue date of exemption certificate"
+ },
+ {
+   "name": "vendor_declaration_code",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: Vendor declaration exists"
+ },
+ {
+   "name": "vendor_declaration_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Validity date of vendor declaration"
+ },
+ {
+   "name": "military_goods",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: Military goods"
+ },
+ {
+   "name": "isr_service_level",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "IS-R service level"
+ },
+ {
+   "name": "material_co_product",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: Material can be co-product"
+ },
+ {
+   "name": "planning_strategy_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Planning Strategy Group"
+ },
+ {
+   "name": "material_internal_object_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Internal object number of configurable material for planning"
+ },
+ {
+   "name": "storage_location_external_procurement",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Default storage location for external procurement"
+ },
+ {
+   "name": "bulk_material",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: bulk material"
+ },
+ {
+   "name": "cc_indicator_fixed",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "CC indicator is fixed"
+ },
+ {
+   "name": "withdrawal_sequence_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Withdrawal Sequence Group for Stocks"
+ },
+ {
+   "name": "qm_material_authorization",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Material Authorization Group for Activities in QM"
+ },
+ {
+   "name": "adjustment_period",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Period of adjustment for planned independent requirements"
+ },
+ {
+   "name": "task_list_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Task List Type"
+ },
+ {
+   "name": "uom_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Unit of Mearsure Group (Oil, Natural Gas,...)"
+ },
+ {
+   "name": "conversion_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Conversion Group (Oil, Natural Gas,..)"
+ },
+ {
+   "name": "air_bouyancy_factor",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Air Bouyancy Factor"
+ },
+ {
+   "name": "production_scheduling_profile",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Production Scheduling Profile"
+ },
+ {
+   "name": "safety_time_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Safety time indicator (with or without safety time)"
+ },
+ {
+   "name": "safety_time",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Safety time (in workdays)"
+ },
+ {
+   "name": "action_control",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Action control: planned order processing"
+ },
+ {
+   "name": "batch_entry",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Determination of batch entry in the production/process order"
+ },
+ {
+   "name": "controlling_area",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Controlling Area"
+ },
+ {
+   "name": "valuation_class",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Valuation Class"
+ },
+ {
+   "name": "logistics_stock_values",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Stock Values in the Logistics Information System"
+ },
+ {
+   "name": "stock_category_logistics",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Stock categories in the Logistics Information System"
+ },
+ {
+   "name": "application_component",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Application Component"
+ },
+ {
+   "name": "cost_value_local_currency",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "BW: Cost Value in Local Currency"
+ },
+ {
+   "name": "retail_value_local_currency",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "BW: Retail Value in Local Currency"
+ },
+ {
+   "name": "retail_tax_local_currency",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "BW: Retail Value with Tax in Local Currency"
+ },
+ {
+   "name": "valuation_area",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Valuation area"
+ },
+ {
+   "name": "quantity_in_base_unit",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "BW: Quantity in Base Unit of Measure"
+ },
+ {
+   "name": "wbs_element_external",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Work Breakdown Structure Element (External)"
+ },
+ {
+   "name": "valuation_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Valuation Type"
+ },
+ {
+   "name": "batch_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Batch Number"
+ },
+ {
+   "name": "sales_order_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sales Order Number"
+ },
+ {
+   "name": "sales_order_item",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Item number in Sales Order"
+ },
+ {
+   "name": "customer_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Account number of customer"
+ },
+ {
+   "name": "special_stock_valuation",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Valuation of Special Stock"
+ },
+ {
+   "name": "storage_location",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Storage location"
+ },
+ {
+   "name": "base_unit_of_measure",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Base Unit of Measure"
+ },
+ {
+   "name": "wbs_element",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Work Breakdown Structure Element (WBS Element)"
+ },
+ {
+   "name": "special_stock_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Special Stock Indicator"
+ },
+ {
+   "name": "currency_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Local Currency"
+ },
+ {
+   "name": "item_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "EA Retail BW Extr. Enhancement: Item Type"
+ },
+ {
+   "name": "record_type_ea_rt",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "EA Retail BW Extr. Enhancement: Data Record Type"
+ },
+ {
+   "name": "material_category",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Material Category"
+ },
+ {
+   "name": "plant_category",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Plant category"
+ },
+ {
+   "name": "input_last_update_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Last Input read time"
+ },
+ {
+   "name": "finalmd5key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "MD5 key column for compare"
+ },
+ {
+   "name": "dw_active_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Active indicator to valid record"
+ },
+ {
+   "name": "dw_start_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Start Date for the record"
+ },
+ {
+   "name": "dw_end_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "End Date for the record"
+ },
+ {
+   "name": "dw_last_update_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Last update date "
+ }
+]

@@ -1,0 +1,86 @@
+[
+ {
+   "name": "uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Universal UID"
+ },
+ {
+   "name": "asset_uid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Asset Unique Identifier - Combination of Asset Type and Asset ID"
+ },
+ {
+   "name": "asset_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Asset type is to segregate assets - Production Machine, Transaportation Equipment, Handling Eqipment"
+ },
+ {
+   "name": "asset_id",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Asset ID is unique identifier for a particular type of Asset"
+ },
+ {
+   "name": "asset_name",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Description of an asset"
+ },
+ {
+   "name": "asset_location",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Location ID"
+ },
+ {
+   "name": "asset_ownership",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Legal Entity for ownership"
+ },
+ {
+   "name": "asset_capacity",
+   "type": "INT64",
+   "mode": "NULLABLE",
+   "description": "Asset Capacity"
+ },
+ {
+   "name": "valid_from_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Valid from date"
+ },
+ {
+   "name": "valid_to_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Valid to date"
+ },
+ {
+   "name": "active",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Location Validity"
+ },
+ {
+   "name": "valuation_area",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Valuation Entity for financial reporting"
+ },
+ {
+   "name": "creation_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Creation Date"
+ },
+ {
+   "name": "change_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Change Date"
+ }
+]

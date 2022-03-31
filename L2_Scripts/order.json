@@ -1,0 +1,248 @@
+[
+ {
+   "name": "uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "UUID"
+ },
+ {
+   "name": "order_uid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Order Unique Identifier"
+ },
+ {
+   "name": "order_Category",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Order Category denotes a specific category of order (Sales Order, Purchase Order, Production Order)"
+ },
+ {
+   "name": "order_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Rush Order, ECOMM, Retail"
+ },
+ {
+   "name": "order_id",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Unique Identifier for a specific order category"
+ },
+ {
+   "name": "item_id",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Item number"
+ },
+ {
+   "name": "schedule_id",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Schedule Line number"
+ },
+ {
+   "name": "product_uid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Product"
+ },
+ {
+   "name": "location_uid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Location"
+ },
+ {
+   "name": "key_legal_entity_uid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Key Legal Entity (customer, Supplier, Planner etc)"
+ },
+ {
+   "name": "receiving_location_uid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Receiving Location ID"
+ },
+ {
+   "name": "shipping_location_uid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Shipping Location"
+ },
+ {
+   "name": "requested_quantity",
+   "type": "INTEGER",
+   "mode": "NULLABLE",
+   "description": "Requested Qty"
+ },
+ {
+   "name": "confirmed_quantity",
+   "type": "INTEGER",
+   "mode": "NULLABLE",
+   "description": "Confirmed Qty"
+ },
+ {
+   "name": "open_quantity",
+   "type": "INTEGER",
+   "mode": "NULLABLE",
+   "description": "Open Qty"
+ },
+ {
+   "name": "delivery_quantity",
+   "type": "INTEGER",
+   "mode": "NULLABLE",
+   "description": "Delivered Quantity"
+ },
+ {
+   "name": "shipping_quantity",
+   "type": "INTEGER",
+   "mode": "NULLABLE",
+   "description": "Shipped Quantity (Leaving company premise)"
+ },
+ {
+   "name": "received_quantity",
+   "type": "INTEGER",
+   "mode": "NULLABLE",
+   "description": "Received Quantity"
+ },
+ {
+   "name": "rejected_quantity",
+   "type": "INTEGER",
+   "mode": "NULLABLE",
+   "description": "Rejected/Cancelled Qty"
+ },
+ {
+   "name": "rejection_code",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Reason for rejection"
+ },
+ {
+   "name": "order_uom",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Order UoM"
+ },
+ {
+   "name": "sales_price",
+   "type": "FLOAT",
+   "mode": "NULLABLE",
+   "description": "Sales Price"
+ },
+ {
+   "name": "sales_price_currency",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sales Price Currency"
+ },
+ {
+   "name": "requested_delivery_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Requested Date"
+ },
+ {
+   "name": "confirmed_delivery_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Confirmed Date"
+ },
+ {
+   "name": "actual_delivery_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Actual delivery date Date/Proof of Delivery Date"
+ },
+ {
+   "name": "goodsissue_date_requested",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "PGI date based on requested date"
+ },
+ {
+   "name": "goodsissue_date_confirmed",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "PGI Date based on confirmed delivery date"
+ },
+ {
+   "name": "goodsissue_date_actual",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Actual PGI date"
+ },
+ {
+   "name": "status",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Delivery Status"
+ },
+ {
+   "name": "order_block",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Block "
+ },
+ {
+   "name": "preceding_document",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Preceding Order ID"
+ },
+ {
+   "name": "successor_document",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Successor Order ID"
+ },
+ {
+   "name": "mode_of_transport",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Mode of Transport - Air, Rail, Road"
+ },
+ {
+   "name": "route_id",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Route"
+ },
+ {
+   "name": "asset_id",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Asset ID"
+ },
+ {
+   "name": "active",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Deletion"
+ },
+ {
+   "name": "company_code",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Legal entity for Ownership"
+ },
+ {
+   "name": "valuation_area",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Valuation Entity for financial reporting"
+ },
+ {
+   "name": "creation_Date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Creation Date"
+ },
+ {
+   "name": "change_Date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Change Date"
+ }
+]

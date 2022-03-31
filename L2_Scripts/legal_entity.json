@@ -1,0 +1,164 @@
+[
+ {
+   "name": "uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Universal ID"
+ },
+ {
+   "name": "legal_enity_uid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Unique "
+ },
+ {
+   "name": "legal_entity_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Customer, Supplier, Company Code, Plant, Sales Org"
+ },
+ {
+   "name": "legal_entity_id",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Legal Entity Unique ID for a particular type of Legal Entity"
+ },
+ {
+   "name": "organization_level",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Organization Level is representing any organization unit, this can be a plant, sales organization or a company code. "
+ },
+ {
+   "name": "legal_entity_name",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Legal Entity Description"
+ },
+ {
+   "name": "legal_entity_name2",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Additional Information about Legal Entity"
+ },
+ {
+   "name": "house_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "House Number/Apt Number is part of address detail"
+ },
+ {
+   "name": "street",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Street Name is part of address"
+ },
+ {
+   "name": "city",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "City is part of the address details"
+ },
+ {
+   "name": "postal_code",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Postal Code is part of address"
+ },
+ {
+   "name": "district",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "District is the part of the address details, represents to the district or County"
+ },
+ {
+   "name": "region",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Region is part of address, will hold detail of province/state"
+ },
+ {
+   "name": "country",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Country"
+ },
+ {
+   "name": "geo_lattitude",
+   "type": "FLOAT",
+   "mode": "NULLABLE",
+   "description": "Lattitude to locate on the map"
+ },
+ {
+   "name": "geo_longitude",
+   "type": "FLOAT",
+   "mode": "NULLABLE",
+   "description": "Longitude to locate on the map"
+ },
+ {
+   "name": "time_zone",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Time Zone of the location"
+ },
+ {
+   "name": "legal_entity_classification",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Legal Entity Classification (A,B,C)"
+ },
+ {
+   "name": "legal_entity_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Customer Group / Supplier Schema (Export, Import, Retail, Wholesale etc)"
+ },
+ {
+   "name": "reconcillation_account",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Internal Account number to reconcile transactions"
+ },
+ {
+   "name": "payment_term",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Liable to pay as per payment term"
+ },
+ {
+   "name": "legal_entity_role",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sold-to, Payer, Receiver etc"
+ },
+ {
+   "name": "valid_from_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Valid from date"
+ },
+ {
+   "name": "valid_to_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Valid to date"
+ },
+ {
+   "name": "active",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Legal Entity Active"
+ },
+ {
+   "name": "creation_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Creation Date"
+ },
+ {
+   "name": "change_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Change Date"
+ }
+]

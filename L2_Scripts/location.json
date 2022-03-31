@@ -1,0 +1,170 @@
+[
+ {
+   "name": "uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Universal Unique ID"
+ },
+ {
+   "name": "location_uid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Unique ID for location - Based on location type and location ID"
+ },
+ {
+   "name": "location_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Location Type denotes whether location is customer, plant, distribution center"
+ },
+ {
+   "name": "location_id",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Location ID is unique ID of particular location type"
+ },
+ {
+   "name": "location_name",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Location Name is Location Descrption"
+ },
+ {
+   "name": "location_name2",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Location Name 2 is an additional information in the name"
+ },
+ {
+   "name": "house_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "House Number/Apt Number is part of address detail"
+ },
+ {
+   "name": "street",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Street Name is part of address"
+ },
+ {
+   "name": "city",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "City is part of the address details"
+ },
+ {
+   "name": "postal_code",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Postal Code is part of address"
+ },
+ {
+   "name": "district",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "District is the part of the address details, represents to the district or County"
+ },
+ {
+   "name": "region",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Region is part of address, will hold detail of province/state"
+ },
+ {
+   "name": "country",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Country"
+ },
+ {
+   "name": "geo_lattitude",
+   "type": "FLOAT",
+   "mode": "NULLABLE",
+   "description": "Latitude to locate on the map"
+ },
+ {
+   "name": "geo_longitude",
+   "type": "FLOAT",
+   "mode": "NULLABLE",
+   "description": "Longitude to locate on the map"
+ },
+ {
+   "name": "time_zone",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Time Zone of the location"
+ },
+ {
+   "name": "transportation_zone",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Transportation Zone to plan transport acitivties"
+ },
+ {
+   "name": "shipping_calendar",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Shipping Calendar to plan transport activities"
+ },
+ {
+   "name": "receiving_calendar",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Receiving Calendar to plan transport activities"
+ },
+ {
+   "name": "working_hour",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Working Hours to plan transport activities"
+ },
+ {
+   "name": "language_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Communication Language to print documents"
+ },
+ {
+   "name": "valid_from_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Valid from date"
+ },
+ {
+   "name": "valid_to_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Valid to date"
+ },
+ {
+   "name": "active",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Location Validity"
+ },
+ {
+   "name": "company_code",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Legal entity for Ownership"
+ },
+ {
+   "name": "valuation_area",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Valuation Entity for financial reporting"
+ },
+ {
+   "name": "creation_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Creation Date"
+ },
+ {
+   "name": "change_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Change Date"
+ }
+]

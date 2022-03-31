@@ -1,0 +1,836 @@
+[
+    {
+        "name": "customer_uuid",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Unique Generated Id"
+    },
+    {
+        "name": "customer_key",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Customer key "
+    },
+    {
+        "name": "customer_number",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Customer Number"
+    },
+    {
+        "name": "address",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Address"
+    },
+    {
+        "name": "title",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Title"
+    },
+    {
+        "name": "central_order_block",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Central order block for customer"
+    },
+    {
+        "name": "express_station",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Express train station"
+    },
+    {
+        "name": "train_station",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Train station"
+    },
+    {
+        "name": "international_location_number_1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "International location number  (part 1)"
+    },
+    {
+        "name": "international_location_number_2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "International location number (Part 2)"
+    },
+    {
+        "name": "authorization_group",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Authorization Group"
+    },
+    {
+        "name": "industry_key",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Industry key"
+    },
+    {
+        "name": "check_digit",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Check digit for the international location number"
+    },
+    {
+        "name": "data_line",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Data communication line no."
+    },
+    {
+        "name": "created_on",
+        "type": "DATE",
+        "mode": "NULLABLE",
+        "description": "Date on which the Record Was Created"
+    },
+    {
+        "name": "created_by",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Name of Person who Created the Object"
+    },
+    {
+        "name": "unloading_points",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Indicator: Unloading points exist"
+    },
+    {
+        "name": "central_billing_block",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Central billing block for customer"
+    },
+    {
+        "name": "fiscal_address",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Account number of the master record with the fiscal address"
+    },
+    {
+        "name": "working_times",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Working Time Calendar"
+    },
+    {
+        "name": "alternative_payer",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Account number of an alternative payer"
+    },
+    {
+        "name": "group_key",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Group key"
+    },
+    {
+        "name": "customer_account_group",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Customer Account Group"
+    },
+    {
+        "name": "customer_classification",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Customer classification"
+    },
+    {
+        "name": "country_key",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Country Key"
+    },
+    {
+        "name": "vendors_account_number",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Account Number of Vendor or Creditor"
+    },
+    {
+        "name": "central_delivery_block",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Central delivery block for the customer"
+    },
+    {
+        "name": "location_code",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "City Coordinates"
+    },
+    {
+        "name": "central_deletion_flag",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Central Deletion Flag for Master Record"
+    },
+    {
+        "name": "name_1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Name 1"
+    },
+    {
+        "name": "name_2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Name 2"
+    },
+    {
+        "name": "name_3",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Name 3"
+    },
+    {
+        "name": "name_4",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Name 4"
+    },
+    {
+        "name": "nielsen_indicator",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Nielsen ID"
+    },
+    {
+        "name": "city",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "City"
+    },
+    {
+        "name": "district",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "District"
+    },
+    {
+        "name": "post_office_box",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "PO Box"
+    },
+    {
+        "name": "po_box_postal_code",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "P.O. Box Postal Code"
+    },
+    {
+        "name": "postal_code",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Postal Code"
+    },
+    {
+        "name": "region",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Region (State, Province, County)"
+    },
+    {
+        "name": "county_code",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "County Code"
+    },
+    {
+        "name": "city_code",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "City Code"
+    },
+    {
+        "name": "regional_market",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Regional market"
+    },
+    {
+        "name": "sort_field",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Sort field"
+    },
+    {
+        "name": "central_posting_block",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Central posting block"
+    },
+    {
+        "name": "language_key",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Language Key"
+    },
+    {
+        "name": "tax_number_1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Tax Number 1"
+    },
+    {
+        "name": "tax_number_2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Tax Number 2"
+    },
+    {
+        "name": "sales_equalization_tax",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Indicator: Business Partner Subject to Equalization Tax?"
+    },
+    {
+        "name": "liable_for_vat",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Liable for VAT"
+    },
+    {
+        "name": "street_and_house_number",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Street and House Number"
+    },
+    {
+        "name": "telebox_number",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Telebox number"
+    },
+    {
+        "name": "telephone_1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "First telephone number"
+    },
+    {
+        "name": "telephone_2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Second telephone number"
+    },
+    {
+        "name": "fax_number",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Fax Number"
+    },
+    {
+        "name": "teletex_number",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Teletex number"
+    },
+    {
+        "name": "telex_number",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Telex number"
+    },
+    {
+        "name": "transportation_zone",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Transportation zone to or from which the goods are delivered"
+    },
+    {
+        "name": "one_time_account",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Indicator: Is the account a one-time account?"
+    },
+    {
+        "name": "payee_in_document",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Indicator: Alternative Payee in Document Allowed?"
+    },
+    {
+        "name": "trading_partner",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Company ID of Trading Partner"
+    },
+    {
+        "name": "vat_registration_number",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "VAT Registration Number"
+    },
+    {
+        "name": "competitors_indicator",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Indicator: Competitor"
+    },
+    {
+        "name": "sales_partners_indicator",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Indicator: Sales partner"
+    },
+    {
+        "name": "sales_prospect_indicator",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Indicator: Sales prospect"
+    },
+    {
+        "name": "customer_type_4",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Indicator for customer type 4"
+    },
+    {
+        "name": "default_sold_to_party",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "ID for default sold-to party"
+    },
+    {
+        "name": "consumer_indicator",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Indicator: Consumer"
+    },
+    {
+        "name": "legal_status",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Legal status"
+    },
+    {
+        "name": "industry_code_1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Industry code 1"
+    },
+    {
+        "name": "industry_code_2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Industry code 2"
+    },
+    {
+        "name": "industry_code_3",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Industry code 3"
+    },
+    {
+        "name": "industry_code_4",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Industry code 4"
+    },
+    {
+        "name": "industry_code_5",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Industry code 5"
+    },
+    {
+        "name": "initial_contact",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Initial contact"
+    },
+    {
+        "name": "annual_sales_2",
+        "type": "NUMERIC",
+        "mode": "NULLABLE",
+        "description": "Annual sales"
+    },
+    {
+        "name": "sales_year",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Year For Which Sales are Given"
+    },
+    {
+        "name": "currency_sales_figure",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Currency of sales figure"
+    },
+    {
+        "name": "year_number_employees",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Yearly number of employees"
+    },
+    {
+        "name": "year_number_given",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Year for which the number of employees is given"
+    },
+    {
+        "name": "attribute_1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Attribute 1"
+    },
+    {
+        "name": "attribute_2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Attribute 2"
+    },
+    {
+        "name": "attribute_3",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Attribute 3"
+    },
+    {
+        "name": "attribute_4",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Attribute 4"
+    },
+    {
+        "name": "attribute_5",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Attribute 5"
+    },
+    {
+        "name": "attribute_6",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Attribute 6"
+    },
+    {
+        "name": "attribute_7",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Attribute 7"
+    },
+    {
+        "name": "attribute_8",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Attribute 8"
+    },
+    {
+        "name": "attribute_9",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Attribute 9"
+    },
+    {
+        "name": "attribute_10",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Attribute 10"
+    },
+    {
+        "name": "natural_person",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Natural Person"
+    },
+    {
+        "name": "annual_sales_1",
+        "type": "NUMERIC",
+        "mode": "NULLABLE",
+        "description": "Annual sales"
+    },
+    {
+        "name": "tax_jurisdiction",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Tax Jurisdiction"
+    },
+    {
+        "name": "matchcode_name_1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Search term for matchcode search"
+    },
+    {
+        "name": "matchcode_name_2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Search Term for Matchcode Search"
+    },
+    {
+        "name": "matcgcode_city",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Search term for matchcode search"
+    },
+    {
+        "name": "fiscal_year_variant",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Fiscal Year Variant"
+    },
+    {
+        "name": "usage_indicator",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Usage Indicator"
+    },
+    {
+        "name": "by_customer",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Inspection Carried Out By Customer (No Inspection Lot)"
+    },
+    {
+        "name": "after_delivery",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Inspection for a Delivery Note After Outbound Delivery"
+    },
+    {
+        "name": "reference_account_group",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Reference Account Group for One-Time Account (Customer)"
+    },
+    {
+        "name": "post_office_box_city",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "PO Box city"
+    },
+    {
+        "name": "plant",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Plant"
+    },
+    {
+        "name": "date_medium_exchange_indicator",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Report key for data medium exchange"
+    },
+    {
+        "name": "instruction_key",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Instruction key for data medium exchange"
+    },
+    {
+        "name": "data_transfer_status",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Status of Data Transfer into Subsequent Release"
+    },
+    {
+        "name": "hierarchy_assignment",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Assignment to Hierarchy"
+    },
+    {
+        "name": "payment_block",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Payment Block"
+    },
+    {
+        "name": "labeking_customer_group",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "IS-R Labeling: customer/plant group"
+    },
+    {
+        "name": "non_military_use",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "ID for mainly non-military use"
+    },
+    {
+        "name": "military_use",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "ID for mainly military use"
+    },
+    {
+        "name": "condition_group_1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Customer condition group 1"
+    },
+    {
+        "name": "condition_group_2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Customer condition group 2"
+    },
+    {
+        "name": "condition_group_3",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Customer condition group 3"
+    },
+    {
+        "name": "condition_group_4",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Customer condition group 4"
+    },
+    {
+        "name": "condition_group_5",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Customer condition group 5"
+    },
+    {
+        "name": "alternative_payer_account",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Indicator: Alternative payer using account number"
+    },
+    {
+        "name": "tax_type",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Tax type"
+    },
+    {
+        "name": "tax_number_type",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Tax Number Type"
+    },
+    {
+        "name": "tax_number_3",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Tax Number 3"
+    },
+    {
+        "name": "tax_number_4",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Tax Number 4"
+    },
+    {
+        "name": "icms_exempt",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Customer is ICMS-exempt"
+    },
+    {
+        "name": "ipi_exempt",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Customer is IPI-exempt"
+    },
+    {
+        "name": "subtrib_group",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Customer group for Substituiçao Tributária calculation"
+    },
+    {
+        "name": "customer_cfop_category",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Customer's CFOP category"
+    },
+    {
+        "name": "icms_law",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Tax law: ICMS"
+    },
+    {
+        "name": "ipi_law",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Tax law: IPI"
+    },
+    {
+        "name": "biochemical_warfare",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Indicator for biochemical warfare for legal control"
+    },
+    {
+        "name": "nuclear_nonprolif",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Indicator for nuclear nonproliferation for legal control"
+    },
+    {
+        "name": "national_security",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Indicator for national security for legal control"
+    },
+    {
+        "name": "missile_technology",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Indicator for missile technology for legal control"
+    },
+    {
+        "name": "central_sales_block",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Central sales block for customer"
+    },
+    {
+        "name": "uniform_resource_locator",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Uniform resource locator"
+    },
+    {
+        "name": "input_last_update_date",
+        "type": "DATETIME",
+        "mode": "NULLABLE",
+        "description": "Last Input read time"
+    },
+    {
+        "name": "finalmd5key",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "MD5 key column for compare"
+    },
+    {
+        "name": "dw_active_indicator",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Active Indicator"
+    },
+    {
+        "name": "dw_start_date",
+        "type": "DATETIME",
+        "mode": "NULLABLE",
+        "description": "Records start date"
+    },
+    {
+        "name": "dw_end_date",
+        "type": "DATETIME",
+        "mode": "NULLABLE",
+        "description": "Records End Date"
+    },
+    {
+        "name": "dw_last_update_date",
+        "type": "DATETIME",
+        "mode": "NULLABLE",
+        "description": "Last update date"
+    }
+]

@@ -1,0 +1,44 @@
+[
+ {
+   "name": "table_name",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "table_name"
+ },
+ {
+   "name": "full_delta_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Full Delta Indicator"
+ },
+ {
+   "name": "extractors_names",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Extractors Names"
+ },
+ {
+   "name": "full_load_datetime",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Full Load Datetime"
+ },
+ {
+   "name": "delta_load_datetime",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Delta Load Datetime"
+ },
+ {
+   "name": "inserted_record_count",
+   "type": "INTEGER",
+   "mode": "NULLABLE",
+   "description": "Inserted Record Count"
+ },
+ {
+   "name": "last_update_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Last Update Date"
+ }
+]

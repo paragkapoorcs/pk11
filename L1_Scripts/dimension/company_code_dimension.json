@@ -1,0 +1,182 @@
+[
+ {
+   "name": "company_uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Unique Generated Id"
+ },
+ {
+   "name": "company_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Company Key"
+ },
+ {
+   "name": "company_code",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Company Code"
+ },
+ {
+   "name": "currency_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Currency Key"
+ },
+ {
+   "name": "chart_of_accounts",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Chart of Accounts"
+ },
+ {
+   "name": "credit_control_area",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Credit control area"
+ },
+ {
+   "name": "fiscal_year_variant",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Fiscal Year Variant"
+ },
+ {
+   "name": "company",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Company"
+ },
+ {
+   "name": "address",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Address"
+ },
+ {
+   "name": "valid_from",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Valid-from date - in current Release only 00010101 possible"
+ },
+ {
+   "name": "address_version",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Version ID for International Addresses"
+ },
+ {
+   "name": "name_1",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Name 1"
+ },
+ {
+   "name": "name_2",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Name 2"
+ },
+ {
+   "name": "name_3",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Name 3"
+ },
+ {
+   "name": "name_4",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Name 4"
+ },
+ {
+   "name": "city",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "City"
+ },
+ {
+   "name": "po_box",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "PO Box"
+ },
+ {
+   "name": "street",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Street"
+ },
+ {
+   "name": "house_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "House Number"
+ },
+ {
+   "name": "country_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Country Key"
+ },
+ {
+   "name": "telephone_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "First telephone no.: dialling code+number"
+ },
+ {
+   "name": "sequence_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sequence Number"
+ },
+ {
+   "name": "home_address",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Recipient address in this communication type (mail sys.grp)"
+ },
+ {
+   "name": "email_address",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "E-Mail Address"
+ },
+ {
+   "name": "input_last_update_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Last Input read time"
+ },
+ {
+   "name": "finalmd5key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "MD5 key column for compare"
+ },
+ {
+   "name": "dw_active_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Active indicator to valid record"
+ },
+ {
+   "name": "dw_start_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Start Date for the record"
+ },
+ {
+   "name": "dw_end_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "End Date for the record"
+ },
+ {
+   "name": "dw_last_update_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Last update date "
+ }
+]

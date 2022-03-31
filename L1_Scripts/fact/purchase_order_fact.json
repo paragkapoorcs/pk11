@@ -1,0 +1,794 @@
+[
+ {
+   "name": "purchase_order_uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Unique Generated Id"
+ },
+ {
+   "name": "purchase_order_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Purchase order key"
+ },
+ {
+   "name": "purchasing_document_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Purchasing Document Number"
+ },
+ {
+   "name": "purchasing_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Purchasing Group"
+ },
+ {
+   "name": "purchasing_organization",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Purchasing organization"
+ },
+ {
+   "name": "vendors_account_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Vendor's account number"
+ },
+ {
+   "name": "purchasing_document_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Purchasing Document Date"
+ },
+ {
+   "name": "logical_system_2",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Logical System"
+ },
+ {
+   "name": "transaction_purchasing_document",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Transaction for Purchasing Document"
+ },
+ {
+   "name": "item_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Item Number of Purchasing Document"
+ },
+ {
+   "name": "material_uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Material Dimension unique id"
+ },
+ {
+   "name": "plant_uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Plant Dimension unique id"
+ },
+ {
+   "name": "supplier_uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Supplier DImension unique id"
+ },
+ {
+   "name": "supplier_purchase_org_uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Supplier Purchase Org Dimension unique id"
+ },
+ {
+   "name": "material_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Material Number"
+ },
+ {
+   "name": "plant",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Plant"
+ },
+ {
+   "name": "material_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Material Key from Material Dimension"
+ },
+ {
+   "name": "plant_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Plant key from Plant Dimension"
+ },
+ {
+   "name": "supplier_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Supplier Key from Suppler Dimension"
+ },
+ {
+   "name": "supplier_purchase_org_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Supplier Purchase Org Key from Supplier Purchase Org Dimension"
+ },
+ {
+   "name": "cancel_data_record",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: Cancel Data Record"
+ },
+ {
+   "name": "purchasing_document_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Purchasing Document Type"
+ },
+ {
+   "name": "purchasing_document_category",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Purchasing Document Category"
+ },
+ {
+   "name": "supplying_plant_stock",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Supplying (issuing) plant in case of stock transport order"
+ },
+ {
+   "name": "status_of_purchasing_document",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Status of Purchasing Document"
+ },
+ {
+   "name": "supplying_plant_partner",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Supplying plant to which partner roles have been assigned"
+ },
+ {
+   "name": "partner_supplier",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Supplier to whom Partner Roles have been Assigned"
+ },
+ {
+   "name": "local_currency",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Local Currency"
+ },
+ {
+   "name": "current_goods_receipt_quantity",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Current goods receipt quantity in order unit"
+ },
+ {
+   "name": "transfer_process",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "SAP BW transaction key"
+ },
+ {
+   "name": "delivery_completed",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Delivery Completed Indicator"
+ },
+ {
+   "name": "material_number_1",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Material number"
+ },
+ {
+   "name": "quantity_deviation",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: relevant quantity deviation"
+ },
+ {
+   "name": "schedule_deviation",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: relevant schedule deviation"
+ },
+ {
+   "name": "total_delivery_time",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Total delivery time in days"
+ },
+ {
+   "name": "storage_location",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Storage location"
+ },
+ {
+   "name": "base_unit_of_measure",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Base Unit of Measure"
+ },
+ {
+   "name": "quantity_variance",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Variance in the quantity delivered as %"
+ },
+ {
+   "name": "material_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Material Group"
+ },
+ {
+   "name": "purchase_order_unit",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Purchase Order Unit of Measure"
+ },
+ {
+   "name": "order_quantity",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Purchase Order Quantity"
+ },
+ {
+   "name": "net_order_price",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Net Price"
+ },
+ {
+   "name": "net_order_value",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Net order value in order currency"
+ },
+ {
+   "name": "delivery_date_variance",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Delivery Date Variance in Days"
+ },
+ {
+   "name": "goods_receipts_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Posting date of goods received or invoice receipt for order"
+ },
+ {
+   "name": "document_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Purchasing Document Date"
+ },
+ {
+   "name": "posting_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Posting date of goods received or invoice receipt for order"
+ },
+ {
+   "name": "validity_period_start",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "End of Validity Period"
+ },
+ {
+   "name": "validity_period_end",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Start of Validity Period"
+ },
+ {
+   "name": "receiving_supplier",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Field not used"
+ },
+ {
+   "name": "different_invoicing_party",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Different Invoicing Party"
+ },
+ {
+   "name": "goods_supplier_1",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Goods Supplier"
+ },
+ {
+   "name": "logical_system_1",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Logical System"
+ },
+ {
+   "name": "supplying_plant",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Supplying (issuing) plant in case of stock transport order"
+ },
+ {
+   "name": "status",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Status of Purchasing Document"
+ },
+ {
+   "name": "entry_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Date on which the purchasing document was entered"
+ },
+ {
+   "name": "order_currency",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Purchase order currency"
+ },
+ {
+   "name": "exchange_rate",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Exchange Rate"
+ },
+ {
+   "name": "requisitioner",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Name of requisitioner/requester"
+ },
+ {
+   "name": "promotion",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Promotion"
+ },
+ {
+   "name": "order_release",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Reason for Ordering"
+ },
+ {
+   "name": "application_component",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Application Component"
+ },
+ {
+   "name": "final_invoice",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Final Invoice Indicator"
+ },
+ {
+   "name": "outline_agrement",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Number of principal purchase agreement"
+ },
+ {
+   "name": "agreement_item",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Item number of principal purchase agreement"
+ },
+ {
+   "name": "order_unit",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Purchase Order Unit of Measure"
+ },
+ {
+   "name": "net_price",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Net Price"
+ },
+ {
+   "name": "price_unit",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Price unit"
+ },
+ {
+   "name": "item_category",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Item category in purchasing document"
+ },
+ {
+   "name": "issuing_storage_location",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Issuing Storage Location for Stock Transport Order"
+ },
+ {
+   "name": "short_text",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Short Text"
+ },
+ {
+   "name": "denominator",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Denominator for Conversion of Order Unit to Base Unit"
+ },
+ {
+   "name": "equal_to",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Numerator for Conversion of Order Unit to Base Unit"
+ },
+ {
+   "name": "gr_base_invoice_verification",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: GR-Based Invoice Verification"
+ },
+ {
+   "name": "goods_receipt",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Goods Receipt Indicator"
+ },
+ {
+   "name": "evaluated_receipt_settlement",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Evaluated Receipt Settlement (ERS)"
+ },
+ {
+   "name": "purchase_requisition",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Purchase Requisition Number"
+ },
+ {
+   "name": "requisition_item",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Item number of purchase requisition"
+ },
+ {
+   "name": "gross_order_value",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Gross order value in order currency"
+ },
+ {
+   "name": "effective_order_value",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Effective order value"
+ },
+ {
+   "name": "cost_value_local_currency",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "BW: Cost Value in Local Currency"
+ },
+ {
+   "name": "cost_value_order_currency",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "BW: Cost Value in Order Currency"
+ },
+ {
+   "name": "retail_local_currecny",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "BW: Retail Value in Local Currency"
+ },
+ {
+   "name": "retail_tax_local_currency",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "BW: Retail Value with Tax in Local Currency"
+ },
+ {
+   "name": "subtotal_1",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Subtotal 1 from pricing procedure for condition"
+ },
+ {
+   "name": "subtotal_2",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Subtotal 2 from pricing procedure for condition"
+ },
+ {
+   "name": "subtotal_3",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Subtotal 3 from pricing procedure for condition"
+ },
+ {
+   "name": "subtotal_4",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Subtotal 4 from pricing procedure for condition"
+ },
+ {
+   "name": "subtotal_5",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Subtotal 5 from pricing procedure for condition"
+ },
+ {
+   "name": "subtotal_6",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Subtotal 6 from pricing procedure for condition"
+ },
+ {
+   "name": "quantity_order_unit",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "BW: Quantity in Order Unit"
+ },
+ {
+   "name": "delivery_costs",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Delivery costs for order from invoice in LC"
+ },
+ {
+   "name": "batch_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Batch Number"
+ },
+ {
+   "name": "delta_purchase_order_cost",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Delta purchase order/goods receipt at cost"
+ },
+ {
+   "name": "delta_purchase_quantity",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Delta purchase order/goods receipt quantity in BUn"
+ },
+ {
+   "name": "delivery_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Item delivery date"
+ },
+ {
+   "name": "schedule_line",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Delivery Schedule Line Counter"
+ },
+ {
+   "name": "number_of_reminders",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Number of Reminders/Expediters"
+ },
+ {
+   "name": "statistics_delivery_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Statistics-Relevant Delivery Date"
+ },
+ {
+   "name": "budget_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Unique Number of Budget"
+ },
+ {
+   "name": "required_budget",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Required Budget"
+ },
+ {
+   "name": "otb_currency",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "OTB Currency"
+ },
+ {
+   "name": "reserved_budget",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Reserved Budget for OTB-Relevant Purchasing Document"
+ },
+ {
+   "name": "special_release_budget",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Special Release Budget"
+ },
+ {
+   "name": "otb_reason_profile",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Reason Profile for OTB Special Release"
+ },
+ {
+   "name": "budget_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Budget Type"
+ },
+ {
+   "name": "otb_status",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "OTB Check Status"
+ },
+ {
+   "name": "reason_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Reason Indicator for OTB Check Status"
+ },
+ {
+   "name": "check_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Type of OTB Check"
+ },
+ {
+   "name": "date_line_id",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Date Line ID (GUID)"
+ },
+ {
+   "name": "transfer_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Transfer Date"
+ },
+ {
+   "name": "no_scem_controlling",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Purchase Order Not Transferred to SCEM"
+ },
+ {
+   "name": "reminder_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Creation Date of Reminder Message Record"
+ },
+ {
+   "name": "reminder_time",
+   "type": "TIME",
+   "mode": "NULLABLE",
+   "description": "Creation Time of Reminder Message Record"
+ },
+ {
+   "name": "cancellation_threat_made",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Cancellation Threat Made"
+ },
+ {
+   "name": "item_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "EA Retail BW Extr. Enhancement: Item Type"
+ },
+ {
+   "name": "data_record_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "EA Retail BW Extr. Enhancement: Data Record Type"
+ },
+ {
+   "name": "material_category",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Material Category"
+ },
+ {
+   "name": "plant_category",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Plant category"
+ },
+ {
+   "name": "fiscal_year_variant",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Fiscal Year Variant"
+ },
+ {
+   "name": "schedule_line_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Schedule line date"
+ },
+ {
+   "name": "counter_schedule_line",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Counter for Schedule Agreement Schedule Lines"
+ },
+ {
+   "name": "goods_supplier_2",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Goods supplier"
+ },
+ {
+   "name": "invoicing_party",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Invoicing party"
+ },
+ {
+   "name": "supplier_plant",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Supplying plant to which partner roles have been assigned"
+ },
+ {
+   "name": "ordering_address",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Ordering address"
+ },
+ {
+   "name": "input_last_update_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Last Input read time"
+ },
+ {
+   "name": "finalmd5key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "MD5 key column for compare"
+ },
+ {
+   "name": "dw_active_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Active indicator to valid record"
+ },
+ {
+   "name": "dw_start_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Start Date for the record"
+ },
+ {
+   "name": "dw_end_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "End Date for the record"
+ },
+ {
+   "name": "dw_last_update_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Last update date "
+ }
+]

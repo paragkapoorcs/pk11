@@ -1,0 +1,41 @@
+# This file is maintained automatically by "terraform init".
+# Manual edits may be lost in future updates.
+
+provider "registry.terraform.io/googlecloudplatform/cdap" {
+  version     = "0.9.0"
+  constraints = "0.9.0"
+  hashes = [
+    "h1:vvYfLjiTqA9t5dFAUGotIWY7RCjo4ZtAIP+67nLBcRo=",
+    "zh:0b1f939b02e7574eab153aa1c313faff5c3ab424cc754aec16cd943848275763",
+    "zh:1b5956204fc047eed7eec0d6726a509767c6187b5c20b1b9f3f5b8b0ac658bba",
+    "zh:21e132b0052edb0717850fd364731b648af14174f568e656021b3c29659347d6",
+    "zh:40cd63bad075754630611f35337567b0d1c9f31e46f7af3cc0b7627946c3a9ab",
+    "zh:441188dd1e9658550114f915657ebd9f56b860edd2d3c478db52203928ccdd04",
+    "zh:5749dd2a96695b30fc07b0025e4148890f80d316b930edac300b037f2ab8284f",
+    "zh:a631942f6f3742fc24abc0eaab0fc9a97c3ae2b7ecc8065a05d6086b4184a7ea",
+    "zh:b3189e5932f2b0b368e1011332f23e97783159b15bfb29f94e6a64345f09cd1c",
+    "zh:b3a2426f619a05a81468204c14d22b40bc3fc2e4f28d3a243d4932ff007deb11",
+    "zh:c6264d68107b0bc2835f1c16fe0f583f2883f7de52400411366af32b3d713b30",
+    "zh:ca0a092ae47bb5e0c6be76fd57e975748504312c4680ca127442a78de227ad2a",
+    "zh:cdfc67e325cb5d0437b0910c17819dd41019f6c0710c0fd85482e076bf713c14",
+    "zh:f2fe0a18674ef03d3835b92c78b88ec07453cb853f99d10afc5bd55a10dd6fda",
+  ]
+}
+
+provider "registry.terraform.io/hashicorp/google" {
+  version = "3.89.0"
+  hashes = [
+    "h1:+C8w9B9aJMpALgmFnqZuHJk/pEDTHWkZ+IrNCEmjB+k=",
+    "zh:208317c042622a4f761e96cb09871c57d7601ff5f21fc5952567d3940203cd93",
+    "zh:227eb06659d5ecbc679de97ce130e8d7400ed0f04fb9e4d13869057ae2b1113e",
+    "zh:267809935e07e78acfc28f1a0aab03d659c777bff5300ae818d76578eb3f3034",
+    "zh:59c43802370a6e0893be34c50f036f4bc8dbd6a77475846f2c5ea0a2d522dbfa",
+    "zh:66a482ef171381ca5d1d5037216db1688381cd72ba939a416b5c81e61352bac6",
+    "zh:7314db9b6c529dc6d391ca852333229dc79ac2be460dc7410fb73cb038cd0672",
+    "zh:79c051035bc5f0e019e650103109fab17051d1d33bffa4040bae5262820577cb",
+    "zh:79f775b07d070a892fdde9c1eff01fe0a4473be2f8b188aea80ac709ce666352",
+    "zh:7ab4db6ff5cb9ba8b7fbf17b789e9172548ef029a5c48c04cfa1f6c4926aaa88",
+    "zh:9a0589b2e5da783158e81a4cfc611951a6248b456893cdfac3ded041d25ea6b2",
+    "zh:f2a4a0a875ddff79016cb3f7f6705ef263caabb312836f999bfe56decdac673e",
+  ]
+}

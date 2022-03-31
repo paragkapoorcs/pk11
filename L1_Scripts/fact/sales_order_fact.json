@@ -1,0 +1,1262 @@
+[
+ {
+   "name": "sales_order_uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Unique Generated Id"
+ },
+ {
+   "name": "sales_order_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sales order Key"
+ },
+ {
+   "name": "sales_document",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sales and Distribution Document Number"
+ },
+ {
+   "name": "item_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Item number of the SD document"
+ },
+ {
+   "name": "schedule_line_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Schedule Line Number"
+ },
+ {
+   "name": "sales_document_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sales Document Type"
+ },
+ {
+   "name": "material_uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Material Dimension unique id"
+ },
+ {
+   "name": "customer_uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Customer DImension unique id"
+ },
+ {
+   "name": "plant_uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Plant Dimension unique id"
+ },
+ {
+   "name": "customer_sales_org_uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Customer Sales Org Dimension unique id"
+ },
+ {
+   "name": "supplier_uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Supplier Dimension unique id"
+ },
+ {
+   "name": "material_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Material Key from Material Dimension"
+ },
+ {
+   "name": "plant_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Plant Ley from Flant Dimension"
+ },
+ {
+   "name": "supplier_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Supplier Key from Supplier Dimension"
+ },
+ {
+   "name": "customer_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Cistomer Key from Customer Dimension"
+ },
+ {
+   "name": "customer_sales_org_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Customer Sales Org from Customer Sales Org Dimension"
+ },
+ {
+   "name": "billing_block",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Billing Block in SD Document"
+ },
+ {
+   "name": "requested_delivery_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Requested Delivery Date"
+ },
+ {
+   "name": "document_currency",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "SD document currency"
+ },
+ {
+   "name": "number_of_orders",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Number of Orders"
+ },
+ {
+   "name": "billing_block_1",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Billing Block in SD Document"
+ },
+ {
+   "name": "sd_document_category",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "SD Document Category"
+ },
+ {
+   "name": "gross_weight",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Gross Weight of the Item"
+ },
+ {
+   "name": "application_component",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Application Component"
+ },
+ {
+   "name": "transfer_process",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "SAP BW transaction key"
+ },
+ {
+   "name": "billing_block_2",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Billing Block for Item"
+ },
+ {
+   "name": "cumulative_confirmed_quantity_sales_unit",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Cumulative Confirmed Quantity in Sales Unit"
+ },
+ {
+   "name": "cumulative_confirmed_quantity_base_unit",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Cumulative Confirmed Quantity in Base Unit"
+ },
+ {
+   "name": "sales_deal",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sales deal"
+ },
+ {
+   "name": "cumulative_order_quantity",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Cumulative order quantity in sales units"
+ },
+ {
+   "name": "subtotal_1",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Subtotal 1 from pricing procedure for condition"
+ },
+ {
+   "name": "subtotal_2",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Subtotal 2 from pricing procedure for condition"
+ },
+ {
+   "name": "subtotal_3",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Subtotal 3 from pricing procedure for condition"
+ },
+ {
+   "name": "subtotal_4",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Subtotal 4 from pricing procedure for condition"
+ },
+ {
+   "name": "subtotal_5",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Subtotal 5 from pricing procedure for condition"
+ },
+ {
+   "name": "subtotal_6",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Subtotal 6 from pricing procedure for condition"
+ },
+ {
+   "name": "minimum_delivery_quantity",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Minimum Delivery Quantity in Delivery Note Processing"
+ },
+ {
+   "name": "required_delivery_qtuantity",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Cumulative Required Delivery Qty (All Dlv-Relev.Sched.Lines)"
+ },
+ {
+   "name": "tax_amount",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Tax amount in document currency"
+ },
+ {
+   "name": "net_order_value",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Net Value of the Order Item in Document Currency"
+ },
+ {
+   "name": "net_weight",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Net Weight of the Item"
+ },
+ {
+   "name": "special_stock_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Special Stock Indicator"
+ },
+ {
+   "name": "unlimited_tolerance",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Unlimited Overdelivery Allowed"
+ },
+ {
+   "name": "overdelivery_tolerance",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Overdelivery Tolerance"
+ },
+ {
+   "name": "underdel_tolerance",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Underdelivery Tolerance"
+ },
+ {
+   "name": "reference_document",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Document number of the reference document"
+ },
+ {
+   "name": "reference_item",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Item number of the reference item"
+ },
+ {
+   "name": "volume",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Volume of the item"
+ },
+ {
+   "name": "cost_in_document_currency",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Cost in document currency"
+ },
+ {
+   "name": "target_quantity",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Target Quantity in Sales Units"
+ },
+ {
+   "name": "outline_agreement_target_value",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Target Value for Outline Agreement in Document Currency"
+ },
+ {
+   "name": "promotion",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Promotion"
+ },
+ {
+   "name": "product_catalog_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Product catalog number"
+ },
+ {
+   "name": "order_items",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Number of Order Items"
+ },
+ {
+   "name": "net_price_sales_quantity",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "BW: Net Price Referring to Sales Quantity for Order Item"
+ },
+ {
+   "name": "cancel_data_record",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: Cancel Data Record"
+ },
+ {
+   "name": "rejection_status",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Rejection Status (Item)"
+ },
+ {
+   "name": "incompletion_status_item",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Incompletion Status (Item)"
+ },
+ {
+   "name": "billing_incompletion_status_item",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Billing Incompletion Status (Item)"
+ },
+ {
+   "name": "pricing_incompletion_status_item",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Pricing Incompletion Status (Item)"
+ },
+ {
+   "name": "delivery_incompletion_status_item",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Delivery Incompletion Status (Item)"
+ },
+ {
+   "name": "confirmed_quantity",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Confirmed Quantity"
+ },
+ {
+   "name": "corrected_quantity",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Corrected quantity in sales unit"
+ },
+ {
+   "name": "delivery_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Schedule line date"
+ },
+ {
+   "name": "schedule_line_category",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Schedule line category"
+ },
+ {
+   "name": "loading_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Loading Date"
+ },
+ {
+   "name": "scheduled_line_blocked",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Schedule Line Blocked for Delivery"
+ },
+ {
+   "name": "required_quantity",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Required quantity for mat.management in stockkeeping units"
+ },
+ {
+   "name": "material_availability_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Material Staging/Availability Date"
+ },
+ {
+   "name": "base_unit_of_measure",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Base Unit of Measure"
+ },
+ {
+   "name": "transportation_planning_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Transportation Planning Date"
+ },
+ {
+   "name": "sales_unit",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sales unit"
+ },
+ {
+   "name": "goods_issue_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Goods Issue Date"
+ },
+ {
+   "name": "desired_delivery_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Desired del. date in confirmed schedule lines"
+ },
+ {
+   "name": "order_quantity",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Order Quantity in Sales Units"
+ },
+ {
+   "name": "quotation_valid_from",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Quotation/Inquiry is Valid From"
+ },
+ {
+   "name": "order_reason",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Order Reason (Reason for the Business Transaction)"
+ },
+ {
+   "name": "quotation_valid_to",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Date Until Which Bid/Quotation is Binding (Valid-To Date)"
+ },
+ {
+   "name": "company_code",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Company Code"
+ },
+ {
+   "name": "billing_block_sd_document",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Billing Block in SD Document"
+ },
+ {
+   "name": "local_currency",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Local Currency"
+ },
+ {
+   "name": "exchange_rate_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Exchange Rate Type"
+ },
+ {
+   "name": "customer_group_1",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Customer group 1"
+ },
+ {
+   "name": "customer_group_2",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Customer group 2"
+ },
+ {
+   "name": "customer_group_3",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Customer group 3"
+ },
+ {
+   "name": "customer_group_4",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Customer group 4"
+ },
+ {
+   "name": "customer_group_5",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Customer group 5"
+ },
+ {
+   "name": "delivery_block",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Delivery Block (Document Header)"
+ },
+ {
+   "name": "statistics_currency",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Statistics Currency"
+ },
+ {
+   "name": "sd_document_category_1",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "SD Document Category"
+ },
+ {
+   "name": "sales_office",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sales office"
+ },
+ {
+   "name": "sales_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sales group"
+ },
+ {
+   "name": "sales_organization",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sales Organization"
+ },
+ {
+   "name": "distribution_channel",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Distribution Channel"
+ },
+ {
+   "name": "reason_for_rejection",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Reason for Rejection of Sales Documents"
+ },
+ {
+   "name": "changed_on",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Date of Last Change"
+ },
+ {
+   "name": "order_probability",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Order Probability of the Item"
+ },
+ {
+   "name": "batch_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Batch Number"
+ },
+ {
+   "name": "credit_data_exchange_rate",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Credit data exchange rate for requested delivery date"
+ },
+ {
+   "name": "international_article_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "International Article Number (EAN/UPC)"
+ },
+ {
+   "name": "created_on",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Date on which the record was created"
+ },
+ {
+   "name": "created_by",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Name of Person who Created the Object"
+ },
+ {
+   "name": "billing_block_item",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Billing Block for Item"
+ },
+ {
+   "name": "weight_unit",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Weight Unit"
+ },
+ {
+   "name": "condition_unit",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Condition Unit"
+ },
+ {
+   "name": "condition_pricing_unit",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Condition Pricing Unit"
+ },
+ {
+   "name": "storage_location",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Storage location"
+ },
+ {
+   "name": "material_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Material Group"
+ },
+ {
+   "name": "material_entered",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Material entered"
+ },
+ {
+   "name": "material_group_1",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Material group 1"
+ },
+ {
+   "name": "material_group_2",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Material group 2"
+ },
+ {
+   "name": "material_group_3",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Material group 3"
+ },
+ {
+   "name": "material_group_4",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Material group 4"
+ },
+ {
+   "name": "material_group_5",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Material group 5"
+ },
+ {
+   "name": "net_order_price",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Net Price"
+ },
+ {
+   "name": "unloading_point_ship_to_party",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Unloading point of the ship-to party"
+ },
+ {
+   "name": "bill_to_party",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Bill-to party"
+ },
+ {
+   "name": "payer",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Payer"
+ },
+ {
+   "name": "ship_to_party",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Ship-to party"
+ },
+ {
+   "name": "product_hierarchy",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Product hierarchy"
+ },
+ {
+   "name": "forwarding_agent",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Forwarding Agent"
+ },
+ {
+   "name": "item_category",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sales document item category"
+ },
+ {
+   "name": "sales_employee",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sales employee"
+ },
+ {
+   "name": "shipment_route",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Route"
+ },
+ {
+   "name": "division",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Division"
+ },
+ {
+   "name": "statistics_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Statistics date"
+ },
+ {
+   "name": "exchange_rate_statistics",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Exchange rate for statistics (Exch.rate at time of creation)"
+ },
+ {
+   "name": "substitution_reason",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Reason for material substitution"
+ },
+ {
+   "name": "denominator",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Denominator (Divisor) for Conversion of Sales Qty into SKU"
+ },
+ {
+   "name": "numerator",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Numerator (factor) for conversion of sales quantity into SKU"
+ },
+ {
+   "name": "conversion_factor_1",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Factor for Converting Sales Units to Base Units (Target Qty)"
+ },
+ {
+   "name": "conversion_factor_2",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Factor for Converting Sales Units to Base Units (Target Qty)"
+ },
+ {
+   "name": "update_date_statistics",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Date of update for statistics updating"
+ },
+ {
+   "name": "sd_document_category_2",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "SD Document Category"
+ },
+ {
+   "name": "volume_unit",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Volume unit"
+ },
+ {
+   "name": "shipping_point",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Shipping Point / Receiving Point"
+ },
+ {
+   "name": "document_currency_1",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "SD document currency"
+ },
+ {
+   "name": "target_quantity_uom",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Target Quantity UoM"
+ },
+ {
+   "name": "sales_district",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sales District"
+ },
+ {
+   "name": "services_rendered_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Date on which services are rendered"
+ },
+ {
+   "name": "billing_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Billing Date"
+ },
+ {
+   "name": "incoterms_part_1",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Incoterms (Part 1)"
+ },
+ {
+   "name": "incoterms_part_2",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Incoterms (Part 2)"
+ },
+ {
+   "name": "customer_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Customer Group"
+ },
+ {
+   "name": "account_assignment_group",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Account Assignment Group for this customer"
+ },
+ {
+   "name": "exchange_rate",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Exchange Rate for Price Determination"
+ },
+ {
+   "name": "translation_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Translation date"
+ },
+ {
+   "name": "pricing_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Date for Pricing and Exchange Rate"
+ },
+ {
+   "name": "document_currency_2",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "SD document currency"
+ },
+ {
+   "name": "division_for_order_header",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Division for order header"
+ },
+ {
+   "name": "sales_document_category_reference",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sales Document Category of Reference Doc. in Order Header"
+ },
+ {
+   "name": "wbs_element",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Work Breakdown Structure Element (WBS Element)"
+ },
+ {
+   "name": "fiscal_year_variant",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Fiscal Year Variant"
+ },
+ {
+   "name": "campaign_order_item",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Campaign of referred sales order item for BW-Extraction"
+ },
+ {
+   "name": "planning_in_apo",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Planning in APO"
+ },
+ {
+   "name": "customer_facing_location",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Customer-Facing Location"
+ },
+ {
+   "name": "customer_facing_location_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Type of Customer-Facing Location"
+ },
+ {
+   "name": "executing_location",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Executing Location"
+ },
+ {
+   "name": "executing_location_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Type of Executing Location"
+ },
+ {
+   "name": "logical_system",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Logical system"
+ },
+ {
+   "name": "item_usage",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Item Usage"
+ },
+ {
+   "name": "managing_location",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "First Inventory-Managing Location"
+ },
+ {
+   "name": "managing_location_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Type of First Inventory-Managing Location"
+ },
+ {
+   "name": "sales_document_shipping",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sales and Distribution Document Number"
+ },
+ {
+   "name": "picking_confirmation",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Confirmation status of picking/putaway"
+ },
+ {
+   "name": "picking_status",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Picking Status/Putaway Status (Item)"
+ },
+ {
+   "name": "goods_movement_status",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Goods Movement Status"
+ },
+ {
+   "name": "schedule_line_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Schedule line date"
+ },
+ {
+   "name": "schedule_delivery_block",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Schedule Line Blocked for Delivery"
+ },
+ {
+   "name": "delivered_quantity",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Delivered quantity per schedule line and delivery item"
+ },
+ {
+   "name": "goods_issue_date_1",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Goods Issue Date"
+ },
+ {
+   "name": "desired_delete_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Desired del. date in confirmed schedule lines"
+ },
+ {
+   "name": "unloading_point",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Unloading Point"
+ },
+ {
+   "name": "incterms_1",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Incoterms (Part 1)"
+ },
+ {
+   "name": "incoterms_2",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Incoterms (Part 2)"
+ },
+ {
+   "name": "sold_to_party",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sold-To Party"
+ },
+ {
+   "name": "delivery_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Delivery Type"
+ },
+ {
+   "name": "vendors_account_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Vendor's account number"
+ },
+ {
+   "name": "loading_point",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Loading Point"
+ },
+ {
+   "name": "route",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Route"
+ },
+ {
+   "name": "actual_goods_movement_date",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Actual Goods Movement Date"
+ },
+ {
+   "name": "entry_time",
+   "type": "TIME",
+   "mode": "NULLABLE",
+   "description": "Entry time"
+ },
+ {
+   "name": "business_area",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Business Area"
+ },
+ {
+   "name": "picking_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator for picking control"
+ },
+ {
+   "name": "consumption_posting",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Consumption posting"
+ },
+ {
+   "name": "warehouse_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Warehouse Number / Warehouse Complex"
+ },
+ {
+   "name": "storage_bin",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Storage Bin"
+ },
+ {
+   "name": "storage_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Storage Type"
+ },
+ {
+   "name": "item_type",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Item Type"
+ },
+ {
+   "name": "delivery_item_category",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Delivery item category"
+ },
+ {
+   "name": "denominator_sales_quantity",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Denominator (Divisor) for Conversion of Sales Qty into SKU"
+ },
+ {
+   "name": "numerator_sales_quantity",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "Numerator (factor) for conversion of sales quantity into SKU"
+ },
+ {
+   "name": "sales_document_1",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sales Document"
+ },
+ {
+   "name": "sales_document_item",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sales Document Item"
+ },
+ {
+   "name": "goods_issue_date_2",
+   "type": "DATE",
+   "mode": "NULLABLE",
+   "description": "Goods Issue Date"
+ },
+ {
+   "name": "division_order_header",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Division for order header"
+ },
+ {
+   "name": "goods_issue_delay",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "BW Extraction SD/LE: GI Delay - GI Date for Schedule Line"
+ },
+ {
+   "name": "actual_goods_issue_delay",
+   "type": "NUMERIC",
+   "mode": "NULLABLE",
+   "description": "BW Extraction LE: Actual GI Delay - GI Date for Delivery"
+ },
+ {
+   "name": "confirmation_status",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Confirmation Status (Item)"
+ },
+ {
+   "name": "billing_status_order_related",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Order-Related Billing Status (Item)"
+ },
+ {
+   "name": "billing_status_delivery_related",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Delivery Status (Item)"
+ },
+ {
+   "name": "overall_processing_status",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Overall Processing Status (Item)"
+ },
+ {
+   "name": "overall_deliver_status",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Overall Delivery Status (Item)"
+ },
+ {
+   "name": "delivery_status",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Delivery Status (Item)"
+ },
+ {
+   "name": "input_last_update_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Last Input read time"
+ },
+ {
+   "name": "finalmd5key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "MD5 key column for compare"
+ },
+ {
+   "name": "dw_active_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Active indicator to valid record"
+ },
+ {
+   "name": "dw_start_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Start Date for the record"
+ },
+ {
+   "name": "dw_end_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "End Date for the record"
+ },
+ {
+   "name": "dw_last_update_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Last update date "
+ }
+]

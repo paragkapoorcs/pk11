@@ -1,0 +1,308 @@
+[
+ {
+   "name": "plant_uuid",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Unique Generated Id"
+ },
+ {
+   "name": "plant_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Plant key"
+ },
+ {
+   "name": "plant",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Plant"
+ },
+ {
+   "name": "purchasing_organization",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Purchasing organization"
+ },
+ {
+   "name": "sales_organization",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sales Organization for Intercompany Billing"
+ },
+ {
+   "name": "country_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Country Key"
+ },
+ {
+   "name": "Region",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Region (State, Province, County)"
+ },
+ {
+   "name": "postal_code",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Postal Code"
+ },
+ {
+   "name": "name",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Name"
+ },
+ {
+   "name": "name_2",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Name 2"
+ },
+ {
+   "name": "street_house_number",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Street and House Number"
+ },
+ {
+   "name": "po_box",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "PO Box"
+ },
+ {
+   "name": "city",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "City"
+ },
+ {
+   "name": "valuationion_area",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Valuation area"
+ },
+ {
+   "name": "batch_status_management",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: batch status management active"
+ },
+ {
+   "name": "factory_calendar",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Factory calendar key"
+ },
+ {
+   "name": "condition_plant_level",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: Conditions at plant level"
+ },
+ {
+   "name": "source_list",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicator: Source list requirement"
+ },
+ {
+   "name": "requirement_planning",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Activating requirements planning"
+ },
+ {
+   "name": "country_code",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "County Code"
+ },
+ {
+   "name": "city_code",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "City Code"
+ },
+ {
+   "name": "planning_plant",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Maintenance Planning Plant"
+ },
+ {
+   "name": "tax_jurisdiction",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Tax Jurisdiction"
+ },
+ {
+   "name": "distribution_channel",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Distribution channel for intercompany billing"
+ },
+ {
+   "name": "intercompany_nilling_division",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Division for intercompany billing"
+ },
+ {
+   "name": "customer_number_plant",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Customer Number of Plant"
+ },
+ {
+   "name": "language_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Language Key"
+ },
+ {
+   "name": "sop_plant",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "SOP plant"
+ },
+ {
+   "name": "variance_key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Variance Key"
+ },
+ {
+   "name": "plant_category",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Plant category"
+ },
+ {
+   "name": "supply_number_plant",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Supplier Number of Plant"
+ },
+ {
+   "name": "sales_district",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Sales District"
+ },
+ {
+   "name": "supply_region",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Supply region (region supplied)"
+ },
+ {
+   "name": "plant_tax_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Tax Indicator: Plant (Purchasing)"
+ },
+ {
+   "name": "regular_supplier",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Take Regular Supplier into Account"
+ },
+ {
+   "name": "tolerance_1",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Tolerance days - Dunning level 1"
+ },
+ {
+   "name": "tolerance_2",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Tolerance days - Dunning level 2"
+ },
+ {
+   "name": "tolerance_3",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Tolerance days - Dunning level 3"
+ },
+ {
+   "name": "text_1st_dunning",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Text name of 1st dunning of vendor declarations"
+ },
+ {
+   "name": "text_2nd_dunning",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Text name of the 2nd dunning of vendor declarations"
+ },
+ {
+   "name": "text_3rd_dunning",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Text name of 3rd dunning of vendor declarations"
+ },
+ {
+   "name": "po_tolerance",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Number of days for PO tolerance - Compress info records - SU"
+ },
+ {
+   "name": "store_category",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Store Category to Differentiate Store, Dep. Store, Shop"
+ },
+ {
+   "name": "superior_department_store",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Superior Department Store"
+ },
+ {
+   "name": "company_code",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Company Code"
+ },
+ {
+   "name": "input_last_update_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Last Input read time"
+ },
+ {
+   "name": "finalmd5key",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "MD5 key column for compare"
+ },
+ {
+   "name": "dw_active_indicator",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Active indicator to valid record"
+ },
+ {
+   "name": "dw_start_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Start Date for the record"
+ },
+ {
+   "name": "dw_end_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "End Date for the record"
+ },
+ {
+   "name": "dw_last_update_date",
+   "type": "DATETIME",
+   "mode": "NULLABLE",
+   "description": "Last update date"
+ }
+]
